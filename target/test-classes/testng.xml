@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TVOAssignment1">
+<listeners>
+<listener class-name="TVOAssignment1.utility.ExtentReport"/>
+</listeners>
+<test name="bankingnet">
+
+<classes>
+
+<class name="inetbanking.testcase.Logintestcase"> 
+</class>
+</classes>
+</test>
+
+</suite>
